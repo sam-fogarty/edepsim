@@ -1,0 +1,29 @@
+/gps/particle mu+        # (specify particle type)
+/gps/particle mu-        # (specify particle type)
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 0 0 0.15519 m
+/gps/direction 0.0 0.0 -1.0
+/gps/pos/halfx 0.5 m
+/gps/pos/halfy 0.5 m
+/gps/ang/type user       # (user defined histogram)
+/gps/hist/type theta     # (zenith angle histogram)
+/gps/hist/point       0    0.19801
+/gps/hist/point 0.17259    0.19217
+/gps/hist/point 0.34519    0.17534
+/gps/hist/point 0.51778     0.1495
+/gps/hist/point 0.69037    0.11771
+/gps/hist/point 0.86297   0.083708
+/gps/hist/point  1.0356   0.051512
+/gps/hist/point  1.2082   0.024919
+/gps/hist/point  1.3807  0.0070661
+/gps/hist/point  1.5533 6.0312e-05   # (angular histogram values)
+/gps/ene/type Arb
+/gps/hist/type arb
+/gps/hist/point 1000 .363
+/gps/hist/point 2000 .162
+/gps/hist/point 3000 .094
+/gps/hist/point 5000 .043
+/gps/hist/point 10000 .011
+/gps/hist/point 20000 .002
+/gps/hist/inter Lin

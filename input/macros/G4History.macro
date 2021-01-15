@@ -1,0 +1,14 @@
+/run/verbose 2
+/gps/verbose 2
+/gps/particle mu-
+/gps/pos/centre 0 0 -35. cm
+/gps/pos/type Point
+/gps/ene/type Gauss
+/gps/ene/mono 1000. MeV
+/gps/ene/sigma 30. MeV
+/gps/ang/type iso
+/gps/ang/maxtheta 5 deg
+/gps/ang/rot1 1 0 0
+/gps/ang/rot2 0 -1 0
+/run/initialize
+/run/beamOn 100
